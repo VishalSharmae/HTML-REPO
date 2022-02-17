@@ -1,0 +1,121 @@
+/*
+External css
+*/
+/* 
+    Created on : 3 Jun, 2020, 9:16:18 AM
+    Author     : visha
+*/
+body{
+    color:#403F3F;
+    background-color:#ffffff;
+    margin: 10px;
+    font-family: roboto;
+    padding:10px 100px 100px 100px;
+   
+}
+
+p{
+    text-align: left;
+    font-family: verdana;
+}
+#background{
+    background-image: url('img/backimg.jpeg');
+    padding-top:20px;
+    border-top:5px;
+    color:#C0C000;
+    margin-top:5px;
+    height:500px; width:1300px;
+    align-content: center;
+}
+#content{
+    background-color: rgba(0,0,0,0.7);
+    color:#C0C0C0;
+    max-width: 450px;
+    padding:30px 20px;
+    margin:10px;
+}
+#list{
+    list-style: disc;
+    padding:5px;
+}
+
+nav {
+    list-style-type: none;
+   float: right;
+    overflow:hidden;
+}
+nav ul{
+     margin:0px;
+    padding:0px;   
+}
+nav ul li{
+    display:inline-block;
+    list-style-type:none;
+}
+nav > ul > li > a{
+    display:block;
+    padding:14px 46px;
+    color:#666;
+    text-decoration:none;
+    float:right;
+}
+.class{
+    float:left;
+    height:80px;
+}
+#header{
+     padding: 5px 0px;
+    color:#403F3F;
+    text-align:center;
+    margin: auto;
+    border-bottom: 1px solid;
+}
+#nav{
+    overflow:hidden;
+    margin-bottom:1px;
+    background: #333;
+    width:100%;
+  }
+
+.logo {
+ padding:1px;
+ height:50px;
+ position:relative;
+ font-size: 18px;
+ line-height: 0px;
+}
+
+.container{
+    padding:20px 20px 40px 100px;
+    margin: auto;
+	width:100%;
+    overflow-x: hidden;
+   
+}
+
+ .thumnail{
+     display: inline-block;
+    height: auto;
+    padding: 4px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #a4a4a4;
+    text-align: center;
+    color: #666;
+    margin: 50px;
+ }
+ 
+ input{
+    padding:14px 70px;
+    font-size:15px;
+    margin-top:30px;        
+}
+
+#subscribe{
+    border:none;
+    background-color: #26211f;
+    color:white;
+    font-size:16px;
+    margin:4px -4px;
+    padding:16px 40px;
+}

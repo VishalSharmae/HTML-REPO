@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 Jun, 2020, 5:21:45 PM
+    Author     : visha
+*/
+
+#banner_image{
+    /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: relative;
+  top: 0;
+  left: 0;
+    padding-top:75px;
+    padding-bottom:50px;
+    text-align:center;
+    color:#f8f8f8;
+    background: url(./images/intro-bg_1.jpg) no-repeat center fixed;
+    background-size:cover;
+
+}
+
+.banner_content{
+    position:relative;
+    padding-top:6%;
+    padding-bottom:6%;
+    margin-top:12%;
+    margin-bottom: 12%;
+    margin-left:20%;
+    background-color:rgba(0,0,0,0.7);
+    max-width:660px;
+}
+
+footer{
+      padding: 10px 0;
+      background-color: #101010;
+      color:#9d9d9d;
+      bottom: 0;
+      width: 100%;
+}
+
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.navbar-brand{
+    font-size: 20px;
+}
